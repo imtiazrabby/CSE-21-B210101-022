@@ -11,6 +11,7 @@ struct node{
 }*first=NULL,*last=NULL;
 void insertLast(int x)
 {
+    
     node *temp = new node(x,NULL);
     if(!(first && last) )
     {
